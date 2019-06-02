@@ -1,5 +1,7 @@
 {
   "name": "app-consulta",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

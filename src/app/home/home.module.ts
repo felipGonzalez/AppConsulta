@@ -20,4 +20,14 @@ import { HomePage } from './home.page';
   ],
   declarations: [HomePage]
 })
-export class HomePageModule {}
+export class HomePageModule {
+
+  getvalue(value:number):string {
+    let result = value/100;
+    let decimal = result.toFixed(1);
+    console.log("El decimal es " + decimal);
+    
+    return decimal;
+  }
+
+}

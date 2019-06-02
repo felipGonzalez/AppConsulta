@@ -14,7 +14,11 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
-  }
+  },
+  { path: 'consulado', 
+    loadChildren: './consulado/consulado.module#ConsuladoPageModule' },
+  { path: 'municipios/:nombre', 
+  loadChildren: './municipios/municipios.module#MunicipiosPageModule' }
 ];
 
 @NgModule({
